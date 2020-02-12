@@ -34,17 +34,35 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin: 5%;
 }
 ol, ul {
 	list-style: none;
 }
 nav {
-	margin: 10px;
+	display: inline-block;
 	font: gray;
+	width: 78%;
+	font-size: 1.25em;
+	text-align: center;
 }
-
+nav a {
+	margin: 3%;
+}
+.tagline {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	font-size: 6em;
+}
 .logo {
+	display: inline-block;
 	font-size: 4em;
+	width: 20%;
+	margin: 0 auto;
+}
+button {
+	font-size: 1.5em;
 }
 blockquote, q {
 	quotes: none;
