@@ -41,33 +41,39 @@ ol, ul {
 }
 nav {
 	display: inline-block;
-	font: gray;
 	width: 78%;
 	font-size: 1.25em;
 	text-align: center;
 }
 nav a {
 	margin: 3%;
+	color: gray;
+	text-decoration: none;
 }
-.tagline h1 {
-	display: inline-block;
-	text-align: center;
-	width: 45%;
-	font-size: 4em;
-}
-.logo {
-	display: inline-block;
-	width: 20%;
-}
-.tagline {
+header {
 	text-align: center;
 	display: inline-block;
 	width: 100%;
 }
-.codeSnippet {
+header img {
 	display: inline-block;
-	width: 40%;
+	width: 20%;
 }
+.tagline {
+	height: 350px;
+}
+.tagline img {
+	display: inline-block;
+	width: 30%;
+	vertical-align: middle;
+}
+header h1 {
+	display: inline-block;
+	width: 45%;
+	font-size: 4em;
+	vertical-align: middle;
+}
+
 button {
 	font-size: 20px;
 	padding: 1% 5%;
