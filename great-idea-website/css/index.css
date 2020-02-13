@@ -29,7 +29,6 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 } */
 * {
-	border: solid 1px gray;
     box-sizing: border-box;
 }
 body {
@@ -60,7 +59,7 @@ header img {
 	width: 20%;
 }
 .tagline {
-	height: 350px;
+
 }
 .tagline img {
 	display: inline-block;
@@ -73,10 +72,42 @@ header h1 {
 	font-size: 4em;
 	vertical-align: middle;
 }
-
 button {
 	font-size: 20px;
 	padding: 1% 5%;
+}
+/*Middle selectors below*/
+.features {
+	display: inline-block;
+	width: 49%;
+}
+.about {
+	display: inline-block;
+	width: 49%;
+}
+.middle-img {
+	display: inline-block;
+	text-align: center;
+}
+.services {
+	display: inline-block;
+	width: 32%;
+}
+.product {
+	display: inline-block;
+	width: 32%;
+}
+.vision {
+	display: inline-block;
+	width: 32%;
+}
+/*Footer selectors below*/
+footer{
+
+}
+.copyright {
+	text-align: center;
+	margin-top: 4%;
 }
 blockquote, q {
 	quotes: none;
@@ -95,7 +126,10 @@ html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
-
+hr {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
