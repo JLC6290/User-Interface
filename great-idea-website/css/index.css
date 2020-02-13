@@ -68,17 +68,16 @@ h1, h2, h3, h4, h5 {
 
 /*navbar specific properties*/
 .navbar {
-	padding: 2%;
+	width: 100%;
 }
 nav {
 	display: inline-block;
-	width: 78%;
+	width: 85%;
 	font-size: 1.25em;
-	text-align: center;
 	vertical-align: middle;
 }
 nav a {
-	margin: 3%;
+	margin: 4%;
 	color: gray;
 	text-decoration: none;
 	vertical-align: middle;
@@ -86,7 +85,7 @@ nav a {
 header img {
 	display: inline-block;
 	vertical-align: middle;
-	width: 10%;
+	width: 14%;
 }
 /*Header specific properties*/
 header {
@@ -126,6 +125,8 @@ button {
 	width: 70%;
 	margin-left: 15%;
 	margin-right: 15%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 .services {
 	display: inline-block;
