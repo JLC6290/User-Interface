@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 } */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 body {
 	line-height: 1;
@@ -37,77 +37,6 @@ body {
 }
 ol, ul {
 	list-style: none;
-}
-nav {
-	display: inline-block;
-	width: 78%;
-	font-size: 1.25em;
-	text-align: center;
-}
-nav a {
-	margin: 3%;
-	color: gray;
-	text-decoration: none;
-}
-header {
-	text-align: center;
-	display: inline-block;
-	width: 100%;
-}
-header img {
-	display: inline-block;
-	width: 20%;
-}
-.tagline {
-
-}
-.tagline img {
-	display: inline-block;
-	width: 30%;
-	vertical-align: middle;
-}
-header h1 {
-	display: inline-block;
-	width: 45%;
-	font-size: 4em;
-	vertical-align: middle;
-}
-button {
-	font-size: 20px;
-	padding: 1% 5%;
-}
-/*Middle selectors below*/
-.features {
-	display: inline-block;
-	width: 49%;
-}
-.about {
-	display: inline-block;
-	width: 49%;
-}
-.middle-img {
-	display: inline-block;
-	text-align: center;
-}
-.services {
-	display: inline-block;
-	width: 32%;
-}
-.product {
-	display: inline-block;
-	width: 32%;
-}
-.vision {
-	display: inline-block;
-	width: 32%;
-}
-/*Footer selectors below*/
-footer{
-
-}
-.copyright {
-	text-align: center;
-	margin-top: 4%;
 }
 blockquote, q {
 	quotes: none;
@@ -135,5 +64,87 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
 /* Your code starts here! */
+
+/*navbar specific properties*/
+.navbar {
+	padding: 2%;
+}
+nav {
+	display: inline-block;
+	width: 78%;
+	font-size: 1.25em;
+	text-align: center;
+	vertical-align: middle;
+}
+nav a {
+	margin: 3%;
+	color: gray;
+	text-decoration: none;
+	vertical-align: middle;
+}
+header img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 10%;
+}
+/*Header specific properties*/
+header {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+.tagline {
+	padding-top: 5%;
+}
+.tagline img {
+	display: inline-block;
+	width: 30%;
+	vertical-align: middle;
+}
+header h1 {
+	display: inline-block;
+	width: 45%;
+	font-size: 4em;
+	vertical-align: middle;
+}
+button {
+	font-size: 20px;
+	padding: 1% 5%;
+}
+/*Middle specific properties*/
+.features {
+	display: inline-block;
+	width: 49%;
+}
+.about {
+	display: inline-block;
+	width: 49%;
+}
+.middle-img {
+	display: inline-block;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.services {
+	display: inline-block;
+	width: 32%;
+}
+.product {
+	display: inline-block;
+	width: 32%;
+}
+.vision {
+	display: inline-block;
+	width: 32%;
+}
+/*Footer properties*/
+footer{
+
+}
+.copyright {
+	text-align: center;
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
